@@ -19,7 +19,7 @@ message Authenticate {
 	repeated string tokens = 3;
 	repeated int32 celt_versions = 4;
 	optional bool opus = 5 [default = false];
-  optional int32 client_type = 6 [default = 0];
+  	optional int32 client_type = 6 [default = 0];
 }
 
 message Ping {
